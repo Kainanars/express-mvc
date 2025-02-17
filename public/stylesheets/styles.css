@@ -1,0 +1,77 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+h1,
+h3 {
+  color: #e0e0e0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+}
+
+ul,
+ol {
+  margin: 20px auto;
+  padding: 10px;
+  list-style: none;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border-radius: 20px;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #e0e0e0;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#skills {
+  background-color: #121212;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#skills li {
+  font-size: 20px;
+  background-color: #1f1f1f;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#skills li:hover,
+li:hover {
+  background-color: #333333;
+}

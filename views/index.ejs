@@ -1,27 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-
-</html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     <%= title %>
   </title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>
-      <%= title %>
-    </h1>
-  </header>
-  <main>
-    <p>Welcome to <%= title %>
-    </p>
-  </main>
+  <h1>
+    <%= title %>
+  </h1>
+  <img src="<%= profile.photoUrl %>" height="200" width="200" alt="<%= profile.name %>" />
+
+  <p>My name is <strong>
+      <%= profile.name %>
+    </strong>
+    <br />
+    Age: <strong>
+      <%= profile.age %>
+    </strong>
+    <br />
+    Marital Status: <strong>
+      <%= profile.maritalStatus %>
+    </strong>
+  </p>
+
+  <h3>Skills</h3>
+  <ul id="skills">
+    <% profile.skills.forEach(skill=> { %>
+      <li>
+        <%= skill %>
+      </li>
+      <% }) %>
+  </ul>
+
+  <h3>Sports I Practice</h3>
+  <ol type="I">
+    <% profile.sports.forEach(sport=> { %>
+      <li>
+        <%= sport %>
+      </li>
+      <% }) %>
+  </ol>
 </body>
 
 </html>

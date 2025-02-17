@@ -1,0 +1,30 @@
+{
+  "name": "Kainan Rodrigues",
+  "age": 22,
+  "maritalStatus": "Single",
+  "skills": [
+    "JavaScript",
+    "Node.js",
+    "React",
+    "Express",
+    "TypeScript",
+    "Java",
+    "Spring Boot",
+    "TailwindCSS",
+    "SQL",
+    "NoSQL",
+    "Git",
+    "Docker",
+    "Firebase",
+    "Figma"
+  ],
+  "sports": [
+    "Volleyball",
+    "Soccer",
+    "Basketball",
+    "Tennis",
+    "Skateboarding",
+    "Swimming"
+  ],
+  "photoUrl": "https://avatars.githubusercontent.com/u/48391722?v=4"
+}
